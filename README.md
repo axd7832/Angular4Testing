@@ -1,5 +1,7 @@
 # AngularTest
 
+This project is to familiarize myself with the updates implemented in Angular 2 & 4. I have experience with Angular 1, so these updates look very exciting! Particularly the change from controllers to components. I dreaded how in Angular 1 that CSS styles were not scoped. So far- I am enjoying the use of the CLI as well. Creating Components and having Angular automagically generate the required declarations in the module file is absolutely amazing. Gone are the days of copying and pasting components!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
 ## Development server
