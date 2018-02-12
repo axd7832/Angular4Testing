@@ -1,0 +1,10 @@
+<h2 class="page-header">Login</h2>
+<form (ngSubmit)="onSubmit()" [formGroup]='lForm'>
+  <div class="form-group">
+    <input type="text" placeholder="Username" formControlName="username" class="form-control" required/>
+  </div>
+  <div class="form-group">
+    <input type="text" placeholder="Password" formControlName="password" class="form-control" required/>
+  </div>
+  <button type="submit" class="btn btn-success" [disabled]="!lForm.valid">Submit</button>
+</form>

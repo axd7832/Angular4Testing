@@ -10,6 +10,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DataService } from './data.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 // Declarations: Component / Directive imports
 // Imports: Makes the exported functions from other modules availablec
@@ -18,7 +20,9 @@ import { RegisterComponent } from './register/register.component';
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -30,4 +34,6 @@ import { RegisterComponent } from './register/register.component';
   providers: [DataService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  url:string="localhost";
+}

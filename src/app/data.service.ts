@@ -11,7 +11,8 @@ export class DataService {
   result: any;
   constructor(private _http: HttpClient) { }
   getUsers() {
-    return this._http.get<User[]>('/api/users')
+    // <User[]>
+    return this._http.get('/api/users')
       // .subscribe((data: any[]) =>{
       //   console.log(data);
       // });
